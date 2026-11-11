@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="robots" content="noindex"/>
+<title>The 2027 Branded Series Report · Talex Media</title>
+<meta name="description" content="Data on what audiences ask brands for and what they trust, with five brand series to watch."/>
+<link rel="icon" type="image/png" sizes="192x192" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_192,h_192,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png"/>
+<link rel="shortcut icon" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_32,h_32,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png" type="image/png"/>
+<link rel="apple-touch-icon" href="https://static.wixstatic.com/media/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png/v1/fill/w_180,h_180,lg_1,usm_0.66_1.00_0.01/3c6878_9a68ae0b3ff84e198fdd43fac493e294~mv2_d_1500_1500_s_2.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600&family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+<style>
+/* Brand tokens and base components follow EpisodicContentExamples/index.html, so the two pages read as one family. */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --o:#E85A0C;
+  --o-text:#B84A07;
+  --o-dim:rgba(232,90,12,0.08);
+  --o-border:rgba(232,90,12,0.28);
+  --bg:#F5F2EC;
+  --surface:#FFFFFF;
+  --border:#E2DDD6;
+  --border-strong:#C8C2BA;
+  --txt:#1A1816;
+  --txt2:#5A524B;
+  --txt3:#736A61;
+  --navy:#15233F;
+}
+html{background:var(--bg);color:var(--txt);font-family:'DM Sans',system-ui,sans-serif;font-size:15px;line-height:1.6;scroll-behavior:smooth}
+body{background:var(--bg);min-height:100vh}
+#wrap{max-width:700px;margin:0 auto;padding:0 1.25rem 5rem}
+.disp{font-family:'Bebas Neue',sans-serif;letter-spacing:0.04em;line-height:1}
+.italic{font-family:'EB Garamond',Georgia,serif;font-style:italic}
+
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--border)}
+.topbar-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.topbar-logo{height:28px;width:auto}
+.topbar-name{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:0.08em;color:var(--txt)}
+.topbar-date{font-family:'Oswald',sans-serif;font-weight:500;font-size:10.5px;letter-spacing:0.13em;text-transform:uppercase;color:var(--txt3)}
+
+/* Draft-only scaffolding. Remove every .draft element before release. */
+.draft-banner{margin:1.25rem 0 0;background:var(--navy);color:rgba(255,255,255,0.88);border-left:4px solid var(--o);border-radius:8px;padding:0.85rem 1rem;font-size:13px;line-height:1.6}
+.draft-banner strong{color:#FFA45C;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;font-size:11px;margin-right:6px}
+.placeholder{border:2px dashed var(--o-border);background:var(--o-dim);border-radius:10px;padding:1.4rem 1.25rem;margin:1.5rem 0}
+.placeholder-label{font-family:'Oswald',sans-serif;font-weight:600;font-size:10.5px;letter-spacing:0.13em;text-transform:uppercase;color:var(--o-text);margin-bottom:0.35rem}
+.placeholder p{font-size:14px;color:var(--txt2);line-height:1.7}
+
+.hero{padding:2.75rem 0 2.25rem;border-bottom:2px solid var(--o)}
+.hero-eyebrow{font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--o-text);margin-bottom:0.8rem}
+.hero-title{font-size:clamp(44px,9vw,76px);color:var(--txt);margin-bottom:0.65rem}
+.hero-tagline{font-size:clamp(19px,3.5vw,25px);color:var(--o);line-height:1.35}
+
+.toc{display:flex;flex-wrap:wrap;gap:6px 8px;margin:1.5rem 0 0}
+.toc a{font-family:'Oswald',sans-serif;font-weight:500;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--txt2);text-decoration:none;border:1px solid var(--border-strong);border-radius:4px;padding:5px 10px;background:var(--surface)}
+.toc a:hover,.toc a:focus-visible{color:var(--o-text);border-color:var(--o)}
+
+section{scroll-margin-top:1.25rem}
+.section{margin-top:3rem}
+.sec-pill{display:inline-block;background:var(--o);color:#fff;font-family:'Oswald',sans-serif;font-weight:600;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:3px;margin-bottom:0.6rem}
+.sec-pill.dark{background:var(--txt)}
+.section-title{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:0.01em;line-height:1.2;font-size:24px;color:var(--txt);margin-bottom:0.5rem}
+.section-sub{font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--txt3);line-height:1.6;margin-bottom:1.25rem}
+.prose p{font-size:15.5px;color:var(--txt2);line-height:1.8;margin-bottom:1rem}
+.prose p strong{color:var(--txt);font-weight:500}
+
+/* The numbers */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.stat{background:var(--surface);padding:1.3rem 1.25rem 1.35rem}
+.stat-n{font-family:'Bebas Neue',sans-serif;font-size:52px;letter-spacing:0.02em;line-height:0.95;color:var(--o);margin-bottom:0.45rem}
+.stat-n.words{font-size:40px;line-height:1}
+.stat-t{font-size:13.5px;color:var(--txt2);line-height:1.6}
+
+/* Findings */
+.finding{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.6rem 1.5rem 1.4rem;margin-top:1.1rem}
+.finding-num{font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:0.12em;color:var(--o-text);margin-bottom:0.35rem}
+.finding h3{font-family:'Oswald',sans-serif;font-weight:600;font-size:21px;line-height:1.25;letter-spacing:0.005em;color:var(--txt);margin-bottom:0.9rem}
+.finding p{font-size:15px;color:var(--txt2);line-height:1.8;margin-bottom:0.9rem}
+.finding .lead-note{font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:15.5px;color:var(--txt3);margin:0.2rem 0 0.8rem}
+
+.films{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:0.4rem}
+.films.two{grid-template-columns:1fr 1fr}
+.film-cap{margin-top:0.6rem}
+.film-title{font-family:'Oswald',sans-serif;font-weight:500;font-size:12px;letter-spacing:0.05em;text-transform:uppercase;color:var(--txt);line-height:1.45}
+.film-title b{font-weight:600;color:var(--o-text)}
+.film-result{font-size:13.5px;color:var(--txt2);line-height:1.6;margin-top:0.3rem}
+
+.proj-video-embed{position:relative;width:100%;aspect-ratio:16/9;background:var(--txt);border-radius:8px;overflow:hidden}
+.proj-video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.video-facade{cursor:pointer;display:block}
+.video-facade .vf-thumb{position:absolute;top:50%;left:0;width:100%;height:auto;transform:translateY(-50%);display:block}
+.vf-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:45px;border-radius:12px;background:rgba(0,0,0,0.72);transition:background 0.15s}
+.vf-play::after{content:"";position:absolute;top:50%;left:52%;transform:translate(-50%,-50%);border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
+.video-facade:hover .vf-play,.video-facade:focus-visible .vf-play{background:var(--o)}
+.video-facade:focus-visible{outline:2px solid var(--o);outline-offset:3px}
+
+/* Our own numbers */
+.own{background:var(--navy);border-radius:14px;padding:1.8rem 1.6rem;border-top:4px solid var(--o);color:rgba(255,255,255,0.86)}
+.own .sec-pill{background:var(--o)}
+.own .section-title{color:#fff}
+.own p{font-size:15px;line-height:1.8;color:rgba(255,255,255,0.84);margin-bottom:1rem}
+.own p strong{color:#FFA45C;font-weight:500}
+.own .intro{font-size:15.5px;color:rgba(255,255,255,0.9);padding-bottom:1.1rem;margin-bottom:1.3rem;border-bottom:1px solid rgba(255,255,255,0.16)}
+
+.chart{background:var(--surface);border-radius:10px;padding:1.2rem 1.2rem 0.9rem;margin:0.4rem 0 1.5rem;color:var(--txt);position:relative}
+.chart-title{font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;letter-spacing:0.04em;text-transform:uppercase;color:var(--txt);line-height:1.35}
+.own .chart .chart-sub{font-size:12.5px;color:var(--txt3);margin:0.2rem 0 1rem;line-height:1.5}
+.bars{list-style:none}
+.bar-row{display:grid;grid-template-columns:150px 1fr;align-items:center;gap:12px;padding:5px 4px;border-radius:6px;outline:none}
+.bar-row + .bar-row{margin-top:2px}
+.bar-row:hover,.bar-row:focus-visible{background:#FAF5EF}
+.bar-row:focus-visible{box-shadow:0 0 0 2px var(--o)}
+.bar-label{min-width:0;line-height:1.25}
+.bar-series{display:block;font-size:13.5px;font-weight:500;color:var(--txt)}
+.bar-brand{display:block;font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--txt3)}
+.bar-track{display:flex;align-items:center;gap:8px;min-width:0}
+.bar{display:block;height:20px;background:var(--o);border-radius:0 4px 4px 0;flex:none}
+.bar-row:hover .bar,.bar-row:focus-visible .bar{background:#F07A36}
+.bar-val{font-size:13px;font-weight:500;color:var(--txt);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chart-axis{display:grid;grid-template-columns:150px 1fr;gap:12px;padding:6px 4px 0;margin-top:6px;border-top:1px solid var(--border)}
+.chart-axis span:last-child{display:flex;justify-content:space-between;font-size:11px;color:var(--txt3);font-variant-numeric:tabular-nums}
+.chart-tip{position:absolute;pointer-events:none;background:var(--txt);color:#fff;border-radius:6px;padding:0.55rem 0.7rem;font-size:12.5px;line-height:1.5;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,0.18);opacity:0;transition:opacity 0.1s;z-index:5}
+.chart-tip.show{opacity:1}
+.chart-tip b{display:block;font-size:15px;font-weight:500}
+.chart-tip span{color:rgba(255,255,255,0.72)}
+.chart details{margin-top:0.8rem;font-size:12.5px;color:var(--txt2)}
+.chart summary{cursor:pointer;color:var(--txt3);font-family:'Oswald',sans-serif;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase}
+.chart .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.chart table{width:100%;min-width:460px;border-collapse:collapse;margin-top:0.6rem;font-variant-numeric:tabular-nums}
+.chart th,.chart td{text-align:left;padding:5px 6px;border-bottom:1px solid var(--border);font-size:12.5px}
+.chart th{font-family:'Oswald',sans-serif;font-weight:500;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--txt3)}
+.chart td.num,.chart th.num{text-align:right}
+
+/* Self-check */
+.check{list-style:none;counter-reset:q;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.check li{counter-increment:q;position:relative;padding:1.05rem 1.2rem 1.05rem 3.6rem;font-size:15px;color:var(--txt);line-height:1.65;border-bottom:1px solid var(--border)}
+.check li:last-child{border-bottom:none}
+.check li::before{content:counter(q,decimal-leading-zero);position:absolute;left:1.2rem;top:0.95rem;font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:0.04em;color:var(--o)}
+.check .quote{font-family:'EB Garamond',Georgia,serif;font-style:italic;font-size:17px}
+
+.cred-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:3rem}
+.cred-chip{padding:6px 12px;border:1px solid var(--o-border);background:var(--o-dim);border-radius:4px;font-family:'Oswald',sans-serif;font-weight:500;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--o-text)}
+
+.cta-block{background:var(--txt);border-radius:12px;padding:2.25rem 1.75rem;margin-top:1.25rem;text-align:center}
+.cta-headline{font-size:clamp(30px,5vw,46px);color:#fff;margin-bottom:0.7rem}
+.cta-sub{font-size:14.5px;color:rgba(255,255,255,0.8);line-height:1.75;max-width:460px;margin:0 auto 1.6rem}
+.cta-primary{display:inline-block;background:var(--o);color:#fff;padding:14px 30px;border-radius:8px;font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background 0.15s,transform 0.1s}
+.cta-primary:hover{background:#c94d08}
+.cta-primary:active{transform:scale(0.98)}
+.cta-primary:focus-visible{outline:2px solid #fff;outline-offset:3px}
+
+.sources{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--border)}
+.sources h2{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:0.12em;text-transform:uppercase;color:var(--txt);margin-bottom:0.9rem}
+.sources ol{padding-left:1.2rem}
+.sources li{font-size:12.5px;color:var(--txt3);line-height:1.65;margin-bottom:0.55rem}
+.sources a{color:var(--txt2);text-decoration:none;border-bottom:1px dotted var(--border-strong);word-break:break-word}
+.sources a:hover{color:var(--o);border-bottom-color:var(--o)}
+.sources .note{font-size:12.5px;color:var(--txt3);line-height:1.65;margin-top:1rem}
+
+.site-footer{margin-top:2.5rem;padding:1.5rem 0 1rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.footer-brand{font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:0.08em;color:var(--txt2)}
+.footer-links{display:flex;gap:1.25rem;flex-wrap:wrap}
+.footer-links a{font-size:12px;color:var(--txt3);text-decoration:none;letter-spacing:0.06em;font-family:'Oswald',sans-serif;text-transform:uppercase}
+.footer-links a:hover{color:var(--o)}
+.footer-copy{font-size:11.5px;color:var(--txt3);width:100%}
+
+@media(max-width:600px){
+  .stats{grid-template-columns:1fr}
+  .films.two{grid-template-columns:1fr}
+  .finding{padding:1.35rem 1.1rem 1.2rem}
+  .own{padding:1.5rem 1.1rem}
+  .chart{padding:1rem 0.8rem 0.8rem}
+  .bar-row,.chart-axis{grid-template-columns:104px 1fr;gap:8px}
+  .bar-series{font-size:12.5px}
+  .check li{padding-left:3.1rem}
+  .check li::before{left:0.9rem}
+}
+@media print{
+  body,html{background:#fff}
+  .cta-primary,.draft{display:none}
+}
+</style>
+</head>
+<body>
+<div id="wrap">
+
+  <!-- LOCKED · topbar (from video-simple.html). Do not edit. -->
+  <nav class="topbar">
+    <a class="topbar-brand" href="https://www.talexmedia.com" target="_blank" rel="noopener">
+      <img class="topbar-logo" src="https://static.wixstatic.com/media/3c6878_456d81e9cdb84e6c8bb3260ebfcc0523~mv2.png" alt="Talex Media" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">
+      <span class="topbar-name" style="display:none">TALEX MEDIA</span>
+    </a>
+    <span class="topbar-date">December 2026</span>
+  </nav>
+
+  <div class="draft draft-banner" role="note"><strong>Draft</strong>For Tom and Evan, not for distribution. Still to come: Tom's opening and predictions, a muted watch of the Aéropostale and Bob's episodes, and the writing release review.</div>
+
+  <header class="hero">
+    <div class="hero-eyebrow">A Talex Media Report</div>
+    <h1 class="disp hero-title">The 2027 Branded Series Report</h1>
+    <p class="italic hero-tagline">Data on what audiences ask brands for and what they trust, with five brand series to watch.</p>
+    <nav class="toc" aria-label="Contents">
+      <a href="#numbers">The numbers</a>
+      <a href="#findings">Findings</a>
+      <a href="#own-numbers">Our own numbers</a>
+      <a href="#predictions">2027 predictions</a>
+      <a href="#self-check">Self-check</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </header>
+
+  <!-- SECTION 0 · Tom's opening (placeholder) -->
+  <div class="draft placeholder">
+    <div class="placeholder-label">Placeholder · Tom's opening</div>
+    <p>About 250 to 300 words in Tom's voice, taken from his recording (interview prompts 1 to 4 in editorial/decisions.md).</p>
+  </div>
+
+  <!-- SECTION 1 · The numbers -->
+  <section class="section" id="numbers">
+    <span class="sec-pill">01</span>
+    <h2 class="section-title">The numbers</h2>
+    <p class="section-sub">Six figures that the findings below draw on.</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-n">57%</div><p class="stat-t">of 2,280 social media users surveyed in the US, UK and Australia said brands should prioritize posting original content series in 2026. Sprout Social, 2025 survey.</p></div>
+      <div class="stat"><div class="stat-n">68%</div><p class="stat-t">of US Google searches ended without a click in the first four months of 2026, according to SparkToro.</p></div>
+      <div class="stat"><div class="stat-n">27%</div><p class="stat-t">fewer impressions for LinkedIn posts with links from personal profiles than for posts without links, in Metricool's 2026 study of 670,000+ posts.</p></div>
+      <div class="stat"><div class="stat-n">14%</div><p class="stat-t">rise in Meta's average price per ad, year over year, in the third quarter of 2026, as reported by Meta.</p></div>
+      <div class="stat"><div class="stat-n">69%</div><p class="stat-t">of people who view online content said they trust AI-generated content less than human-generated content. YouGov survey of 2,557 US adults, April 2026, commissioned by Pangram, which sells AI-detection software.</p></div>
+      <div class="stat"><div class="stat-n words">About a third</div><p class="stat-t">less content posted by Inter Milan over the past year, while followers across the club's channels rose about 20%, according to the club.</p></div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 · Findings -->
+  <section class="section" id="findings">
+    <span class="sec-pill">02</span>
+    <h2 class="section-title">Findings</h2>
+
+    <article class="finding" id="finding-1">
+      <div class="finding-num">Finding 01</div>
+      <h3>57% of social media users surveyed say brands should prioritize original series</h3>
+      <p>In a 2025 Sprout Social survey of 2,280 social media users in the US, UK and Australia, 57% said brands should prioritize posting original content series in 2026. That answer was nearly tied with the top answer, interacting with audiences.</p>
+      <p>Two brands that made a series have said publicly what it cost or what it returned. Aéropostale's The Intern Diaries stars creator Déjà Clark, and its second season has six episodes of about three to four minutes each. Marisa Thalberg, the marketing chief at Catalyst Brands, which licenses Aéropostale, told Digiday that the show overall cost "really low six figures". Bob's Discount Furniture launched Till Decor Do Us Part in July 2025, with comedian Gabby Bryan as host and six real couples as contestants, and released a second season in fall 2026.</p>
+      <p class="lead-note">The results under the two films below are the companies' own figures.</p>
+      <div class="films two">
+        <div>
+          <div class="proj-video-embed video-facade" data-yt="Bcp-S1ZP-8c" role="button" tabindex="0" aria-label="Play video: The Intern Diaries, season 2, episode 1"><img class="vf-thumb" src="https://i.ytimg.com/vi/Bcp-S1ZP-8c/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span></div>
+          <div class="film-cap">
+            <div class="film-title"><b>The Intern Diaries</b> · Aéropostale · Season 2, episode 1 · 3 minutes 49 seconds</div>
+            <p class="film-result">Marisa Thalberg of Catalyst Brands, to Digiday: "On Instagram, we saw two times the engagement on 'Intern Diaries' content versus our regular content that we program."</p>
+          </div>
+        </div>
+        <div>
+          <div class="proj-video-embed video-facade" data-yt="KjYgMtAOonE" role="button" tabindex="0" aria-label="Play video: Till Decor Do Us Part, season 1, episode 2"><img class="vf-thumb" src="https://i.ytimg.com/vi/KjYgMtAOonE/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span></div>
+          <div class="film-cap">
+            <div class="film-title"><b>Till Decor Do Us Part</b> · Bob's Discount Furniture · Season 1, episode 2 · 1 minute 40 seconds</div>
+            <p class="film-result">Company-reported: the first season drove $9 million in attributed sales.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="finding" id="finding-2">
+      <div class="finding-num">Finding 02</div>
+      <h3>68% of US Google searches in early 2026 produced no click</h3>
+      <p>In the first four months of 2026, 68% of US Google searches ended without a click, according to SparkToro. The company put the 2024 figure at 60%, using a different data provider. Pew Research found that in March 2025, people clicked a traditional search result on 8% of Google search visits that showed an AI summary, against 15% of visits that did not.</p>
+      <p>In Metricool's 2026 study of 670,000+ LinkedIn posts, posts with links from personal profiles got 27% fewer impressions and 20% fewer interactions than posts without links. Advertising on Meta costs more too. Meta reported that its average price per ad rose 14% year over year in the third quarter of 2026. The price has been higher than a year earlier in each of the seven quarters since the start of 2025.</p>
+      <p>An episode that a person watches on the platform where they found it does not need the click. Shopify's Make My Space Work is one example. A designer rebuilds one small-business owner's workspace per episode, the business owners on camera are Shopify's customers, and the series sits on a YouTube channel of its own.</p>
+      <div class="films">
+        <div>
+          <div class="proj-video-embed video-facade" data-yt="cJ7QmsUON7U" role="button" tabindex="0" aria-label="Play video: Make My Space Work, rental live-work transformation"><img class="vf-thumb" src="https://i.ytimg.com/vi/cJ7QmsUON7U/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span></div>
+          <div class="film-cap">
+            <div class="film-title"><b>Make My Space Work</b> · Shopify · 15 minutes 22 seconds</div>
+            <p class="film-result">5.0 million views across the 27 videos on the series channel, read 11 November 2026.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="finding" id="finding-3">
+      <div class="finding-num">Finding 03</div>
+      <h3>In a US survey, 69% of people who view online content said they trust AI-generated content less</h3>
+      <p>In a YouGov survey of 2,557 US adults commissioned by Pangram in April 2026, 69% of people who view online content said they trust AI-generated content less than human-generated content. Only 8% trust it more. In the same survey, 61% said they are unlikely to read or engage with content they think is AI-generated. Pangram sells AI-detection software, so the company has an interest in the result.</p>
+      <p>LinkedIn's chief product officer, Hari Srinivasan, wrote in August 2026 that members were seeing "40% less views on what we classify as AI slop" than a few weeks earlier.</p>
+      <p>Every series embedded in this report puts real people on camera. YETI Presents is the plainest case: 90 short documentaries, each about one person telling a story from their own life. The people in the films are anglers, hunters, cooks, surfers and rodeo riders.</p>
+      <div class="films">
+        <div>
+          <div class="proj-video-embed video-facade" data-yt="OmrufRLGdAk" role="button" tabindex="0" aria-label="Play video: A Thousand Casts, from YETI Presents"><img class="vf-thumb" src="https://i.ytimg.com/vi/OmrufRLGdAk/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span></div>
+          <div class="film-cap">
+            <div class="film-title"><b>A Thousand Casts, from YETI Presents</b> · YETI · 28 minutes 29 seconds</div>
+            <p class="film-result">38.2 million views across the 90 films in the library, read 11 November 2026.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="finding" id="finding-4">
+      <div class="finding-num">Finding 04</div>
+      <h3>Inter Milan posted about a third less, and the club reports a larger audience</h3>
+      <p>Marketing Brew reported in September 2026 that Inter Milan cut the amount of content it posted by about a third over the past year. Across its channels, followers rose about 20%, impressions 43% and video views 33%, according to the club.</p>
+      <p>One club's figures do not settle the question, and other data points the other way on followers. In Buffer's data from about 161,000 accounts on Facebook, Instagram and X, accounts posting 10 or more times a week gained an average of 32 more followers a week than in weeks they didn't post. Buffer, which sells scheduling software, also analyzed 15.7 million posts, and that analysis suggests reach per post tends to fall as frequency rises.</p>
+      <p>Instagram's head, Adam Mosseri, said in January 2025 that the top three signals for ranking are watch time, likes and sends.</p>
+      <p>A series can run on few episodes. Huckberry's DIRT has published 18 episodes in four and a half years, about four a year, and the median episode runs 34 minutes.</p>
+      <div class="films">
+        <div>
+          <div class="proj-video-embed video-facade" data-yt="3gNph25gxhw" role="button" tabindex="0" aria-label="Play video: New York City, from DIRT"><img class="vf-thumb" src="https://i.ytimg.com/vi/3gNph25gxhw/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><span class="vf-play" aria-hidden="true"></span></div>
+          <div class="film-cap">
+            <div class="film-title"><b>New York City, from DIRT</b> · Huckberry · 24 minutes 37 seconds</div>
+            <p class="film-result">24.1 million views across 18 episodes published between March 2022 and September 2026.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- SECTION 3 · Our own numbers -->
+  <section class="section own" id="own-numbers">
+    <span class="sec-pill">03</span>
+    <h2 class="section-title">Our own numbers: 19 brand series on YouTube</h2>
+    <p class="intro">Talex tracks 19 brand series on YouTube. On 11 November 2026 we read the public figures for all 19 from YouTube's data service. We chose these series because they worked, so they show what a successful brand series looks like and do not prove that series succeed. YouTube's public view counts can include views from paid ads and do not separate them, so no figure here should be read as unpaid viewing.</p>
+
+    <p><strong>A series can account for a large share of a channel's viewing.</strong> The 33 films in Volvo Trucks' Live Tests make up 67.2% of the lifetime views on the Volvo Trucks channel. The 18 episodes of DIRT make up 40.1% of Huckberry's channel views, IKEA USA's makeover playlist 35.4% of its channel's, and YETI Presents 31.3% of YETI's. The share is not always large. Cat Trials is 7.5% of the views on Caterpillar's product channel, and Crucible Moments is 9.6% of Sequoia Capital's.</p>
+
+    <!-- Chart data: Report2027/sources/own-numbers.json, read 2026-11-11. Re-read before release. -->
+    <figure class="chart" id="share-chart">
+      <figcaption>
+        <div class="chart-title">Share of the channel's lifetime YouTube views</div>
+        <p class="chart-sub">Each series against all views on the channel that hosts it. Read 11 November 2026.</p>
+      </figcaption>
+      <ul class="bars">
+        <li class="bar-row" tabindex="0" data-series="Live Tests" data-brand="Volvo Trucks" data-share="67.2" data-views="251.3M" data-channel="374.0M" data-count="33 films"><span class="bar-label"><span class="bar-series">Live Tests</span><span class="bar-brand">Volvo Trucks</span></span><span class="bar-track"><span class="bar" style="width:67.2%"></span><span class="bar-val">67.2%</span></span></li>
+        <li class="bar-row" tabindex="0" data-series="DIRT" data-brand="Huckberry" data-share="40.1" data-views="24.1M" data-channel="60.0M" data-count="18 episodes"><span class="bar-label"><span class="bar-series">DIRT</span><span class="bar-brand">Huckberry</span></span><span class="bar-track"><span class="bar" style="width:40.1%"></span><span class="bar-val">40.1%</span></span></li>
+        <li class="bar-row" tabindex="0" data-series="Makeover playlist" data-brand="IKEA USA" data-share="35.4" data-views="48.1M" data-channel="135.7M" data-count="200 videos"><span class="bar-label"><span class="bar-series">Makeovers</span><span class="bar-brand">IKEA USA</span></span><span class="bar-track"><span class="bar" style="width:35.4%"></span><span class="bar-val">35.4%</span></span></li>
+        <li class="bar-row" tabindex="0" data-series="YETI Presents" data-brand="YETI" data-share="31.3" data-views="38.2M" data-channel="122.0M" data-count="90 films"><span class="bar-label"><span class="bar-series">YETI Presents</span><span class="bar-brand">YETI</span></span><span class="bar-track"><span class="bar" style="width:31.3%"></span><span class="bar-val">31.3%</span></span></li>
+        <li class="bar-row" tabindex="0" data-series="Crucible Moments" data-brand="Sequoia Capital" data-share="9.6" data-views="1.95M" data-channel="20.3M" data-count="21 episodes"><span class="bar-label"><span class="bar-series">Crucible Moments</span><span class="bar-brand">Sequoia Capital</span></span><span class="bar-track"><span class="bar" style="width:9.6%"></span><span class="bar-val">9.6%</span></span></li>
+        <li class="bar-row" tabindex="0" data-series="Cat Trials" data-brand="Caterpillar" data-share="7.5" data-views="22.6M" data-channel="303.2M" data-count="28 films"><span class="bar-label"><span class="bar-series">Cat Trials</span><span class="bar-brand">Caterpillar</span></span><span class="bar-track"><span class="bar" style="width:7.5%"></span><span class="bar-val">7.5%</span></span></li>
+      </ul>
+      <div class="chart-axis" aria-hidden="true"><span></span><span><span>0%</span><span>50%</span><span>100%</span></span></div>
+      <div class="chart-tip" role="status" aria-live="polite"></div>
+      <details>
+        <summary>Show as a table</summary>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Series</th><th>Brand</th><th class="num">Videos</th><th class="num">Series views</th><th class="num">Channel views</th><th class="num">Share</th></tr></thead>
+          <tbody>
+            <tr><td>Live Tests</td><td>Volvo Trucks</td><td class="num">33</td><td class="num">251.3M</td><td class="num">374.0M</td><td class="num">67.2%</td></tr>
+            <tr><td>DIRT</td><td>Huckberry</td><td class="num">18</td><td class="num">24.1M</td><td class="num">60.0M</td><td class="num">40.1%</td></tr>
+            <tr><td>Makeovers</td><td>IKEA USA</td><td class="num">200</td><td class="num">48.1M</td><td class="num">135.7M</td><td class="num">35.4%</td></tr>
+            <tr><td>YETI Presents</td><td>YETI</td><td class="num">90</td><td class="num">38.2M</td><td class="num">122.0M</td><td class="num">31.3%</td></tr>
+            <tr><td>Crucible Moments</td><td>Sequoia Capital</td><td class="num">21</td><td class="num">1.95M</td><td class="num">20.3M</td><td class="num">9.6%</td></tr>
+            <tr><td>Cat Trials</td><td>Caterpillar</td><td class="num">28</td><td class="num">22.6M</td><td class="num">303.2M</td><td class="num">7.5%</td></tr>
+          </tbody>
+        </table></div>
+      </details>
+    </figure>
+
+    <p><strong>Five of the 19 have published for more than ten years.</strong> Roadkill, Will It Blend?, Volvo Trucks' Live Tests, Cat Trials and YETI Presents each span more than a decade. We measured the span from the first upload to the latest in the playlist we used.</p>
+
+    <p><strong>Seven of the 19 come from companies that sell to businesses.</strong> Sequoia Capital's Crucible Moments has 1.95 million views across 21 documentaries in which a company's founder or leaders tell its story, with a median episode of about 42 minutes. Shopify's Make My Space Work has 5.0 million views across 27 videos, with a median of about 13 minutes.</p>
+
+    <p><strong>Eight of the 11 longer series have a median episode between 6:55 and 14:49.</strong> The 11 are the series whose median episode is longer than five minutes. The other eight series are short, with medians from 58 seconds to 4 minutes 19 seconds. We keep the two groups apart because view counts for short and long episodes are not comparable.</p>
+
+    <p><strong>In 11 of the 19 series, no episode title contains the brand's name.</strong> That count reflects naming habits as well as intent, because a series such as YETI Presents carries the brand in the series name.</p>
+  </section>
+
+  <!-- SECTION 4 · Tom's predictions (placeholder) -->
+  <section class="section" id="predictions">
+    <span class="sec-pill dark">04</span>
+    <h2 class="section-title">Predictions for 2027</h2>
+    <div class="draft placeholder">
+      <div class="placeholder-label">Placeholder · Tom's 2027 predictions</div>
+      <p>Four to six predictions in Tom's own words, about 400 to 500 words, from his recording (interview prompts 5 to 10 in editorial/decisions.md). The heading above is a working title.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 5 · Self-check -->
+  <section class="section" id="self-check">
+    <span class="sec-pill">05</span>
+    <h2 class="section-title">A short self-check</h2>
+    <p class="section-sub">Five questions to ask about a piece of content before it is made.</p>
+    <ol class="check">
+      <li>Tom Langan's test, from his Value First newsletter: <span class="quote">"If you stripped your name and your product off this piece of content, would anyone still want to watch it?"</span></li>
+      <li>Can the format be described in one sentence, so that a viewer of one episode knows what the next will be?</li>
+      <li>Is a real person on camera, telling a story that is theirs?</li>
+      <li>Does the piece hold a viewer on the platform where it is watched, without needing a click?</li>
+      <li>Could the team still be making it a year from now?</li>
+    </ol>
+  </section>
+
+  <div class="cred-row">
+    <span class="cred-chip">2x Emmy Nominated</span>
+    <span class="cred-chip">25 Years Experience</span>
+    <span class="cred-chip">100+ Hours Distributed Globally</span>
+    <span class="cred-chip">BBC · Discovery · NBC Universal</span>
+  </div>
+
+  <!-- SECTION 6 · CTA -->
+  <div class="cta-block">
+    <h2 class="disp cta-headline">Talk It Through</h2>
+    <p class="cta-sub">If one of these series gave you an idea for your own, we are glad to talk it through.</p>
+    <a class="cta-primary" href="https://calendly.com/d/ct7b-xvd-c9x/intro-call" target="_blank" rel="noopener">Book A Call With Our Team →</a>
+  </div>
+
+  <!-- SECTION 7 · Sources -->
+  <section class="sources" id="sources">
+    <h2>Sources</h2>
+    <ol>
+      <li>Sprout Social, "The rise of episodic content: Should your brand launch a social media content series?", 6 January 2026. Q2 2025 Pulse Survey of 2,280 social media users in the US, UK and Australia. <a href="https://sproutsocial.com/insights/social-media-content-series/" target="_blank" rel="noopener">sproutsocial.com</a></li>
+      <li>SparkToro, "In 2026, Less than One Third of Google Searches Still Send a Click", 8 June 2026. The 2026 figure uses Similarweb data and the 2024 figure uses Datos data, a different provider. <a href="https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/" target="_blank" rel="noopener">sparktoro.com</a></li>
+      <li>Pew Research Center, "Google users are less likely to click on links when an AI summary appears in the results", 22 July 2025. 900 US adults, browsing data from March 2025. <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/" target="_blank" rel="noopener">pewresearch.org</a></li>
+      <li>Metricool, 2026 LinkedIn study of 670,000+ posts, as published in Metricool's newsletter, "5 LinkedIn stats in 2026 you probably didn't see coming". <a href="https://newsletter.metricool.com/p/5-linkedin-stats-in-2026-you-probably-didn-t-see-coming" target="_blank" rel="noopener">newsletter.metricool.com</a></li>
+      <li>Meta Platforms, "Meta Reports Third Quarter 2026 Results", 21 October 2026. <a href="https://s21.q4cdn.com/399680738/files/doc_news/Meta-Reports-Third-Quarter-2026-Results-2026.pdf" target="_blank" rel="noopener">investor.atmeta.com (PDF)</a></li>
+      <li>Pangram, AI sentiment survey, conducted by YouGov on behalf of Pangram, 2,557 US adults, 9 to 13 April 2026. Pangram sells AI-detection software. <a href="https://www.pangram.com/blog/ai-sentiment-survey" target="_blank" rel="noopener">pangram.com</a></li>
+      <li>Hari Srinivasan, chief product officer of LinkedIn, LinkedIn post, August 2026. <a href="https://www.linkedin.com/posts/hsrinivasan1_one-more-follow-up-on-ai-slop-first-share-7495960468897968128-edtg/" target="_blank" rel="noopener">linkedin.com</a></li>
+      <li>Marketing Brew, "Inter Milan grew followers, impressions, views while posting less", 23 September 2026. The figures are the club's own. <a href="https://www.marketingbrew.com/stories/inter-milan-social-strategy" target="_blank" rel="noopener">marketingbrew.com</a></li>
+      <li>Buffer, "The State of Social Media Engagement in 2026: 52M+ Posts Analyzed", 5 March 2026. Data from accounts that publish through Buffer. <a href="https://buffer.com/resources/state-of-social-media-engagement-2026/" target="_blank" rel="noopener">buffer.com</a></li>
+      <li>Adam Mosseri, as reported by Social Media Today, 22 January 2025. <a href="https://www.socialmediatoday.com/news/instagram-shares-algorithm-2025/738034/" target="_blank" rel="noopener">socialmediatoday.com</a></li>
+      <li>Digiday, Future of TV Briefing, "Why Aéropostale is investing in creator-led episodic shows", August 2026. <a href="https://digiday.com/future-of-tv/future-of-tv-briefing-why-aeropostale-is-investing-in-creator-led-episodic-shows/" target="_blank" rel="noopener">digiday.com</a>. Episode length: Marketing Dive, 9 July 2026. <a href="https://marketingdive.com/news/how-aeropostale-entertains-gen-alpha-with-a-creator-led-mini-series/824693" target="_blank" rel="noopener">marketingdive.com</a></li>
+      <li>Chief Marketer, "Why Bob's Discount Furniture Tweaks its Microdrama Strategy After First Season Drives $9 Million", 14 October 2026. <a href="https://www.chiefmarketer.com/why-bobs-discount-furniture-tweaks-its-microdrama-strategy-after-first-season-drives-9-million/" target="_blank" rel="noopener">chiefmarketer.com</a>. Launch details: Bob's Discount Furniture press release, 7 July 2025. <a href="https://ir.mybobs.com/news-events/press-releases/detail/87/bobs-discount-furniture-launches-entertaining-new-social-first-reality-series-till-decor-do-us-part" target="_blank" rel="noopener">ir.mybobs.com</a></li>
+      <li>YouTube Data API, read 11 November 2026, for every view count, episode count, length and channel figure in the film captions and in Our own numbers. Trailers, teasers and behind-the-scenes films are excluded from episode counts.</li>
+    </ol>
+    <p class="note">Every series in this report was made by the company named with it. Talex did not make them.</p>
+  </section>
+
+  <footer class="site-footer">
+    <span class="footer-brand">Talex Media</span>
+    <div class="footer-links">
+      <a href="https://www.talexmedia.com" target="_blank" rel="noopener">talexmedia.com</a>
+      <a href="mailto:solutions@talexmedia.com">solutions@talexmedia.com</a>
+    </div>
+    <div class="footer-copy">© 2026 Talex Media LLC · The 2027 Branded Series Report</div>
+  </footer>
+
+</div>
+<script>
+(function(){
+  // Click-to-play video facades (same pattern as the examples page: more than ~8 live iframes mis-paint).
+  function play(el){
+    if(el.dataset.loaded) return;
+    el.dataset.loaded = "1";
+    var f = document.createElement("iframe");
+    f.setAttribute("src","https://www.youtube-nocookie.com/embed/"+el.getAttribute("data-yt")+"?autoplay=1&rel=0");
+    f.setAttribute("title", el.getAttribute("aria-label")||"Video");
+    f.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+    f.setAttribute("allowfullscreen","");
+    el.innerHTML = "";
+    el.appendChild(f);
+  }
+  document.addEventListener("click", function(e){
+    var el = e.target.closest(".video-facade");
+    if(el) play(el);
+  });
+  document.addEventListener("keydown", function(e){
+    if(e.key !== "Enter" && e.key !== " ") return;
+    var el = e.target.closest && e.target.closest(".video-facade");
+    if(el){ e.preventDefault(); play(el); }
+  });
+
+  // Chart tooltip: values are already printed on every bar and in the table, so the tooltip only adds context.
+  var chart = document.getElementById("share-chart");
+  if(!chart) return;
+  var tip = chart.querySelector(".chart-tip");
+  function show(row){
+    tip.textContent = "";
+    var b = document.createElement("b"); b.textContent = row.dataset.share + "% of channel views";
+    var l1 = document.createElement("div"); l1.textContent = row.dataset.series + " · " + row.dataset.brand;
+    var l2 = document.createElement("span"); l2.textContent = row.dataset.count + ", " + row.dataset.views + " views, of " + row.dataset.channel + " on the channel";
+    tip.appendChild(b); tip.appendChild(l1); tip.appendChild(l2);
+    var cr = chart.getBoundingClientRect(), rr = row.getBoundingClientRect();
+    var top = rr.bottom - cr.top + 4;
+    var left = Math.min(Math.max(8, rr.left - cr.left + 110), cr.width - 270);
+    tip.style.top = top + "px"; tip.style.left = Math.max(8,left) + "px";
+    tip.classList.add("show");
+  }
+  function hide(){ tip.classList.remove("show"); }
+  chart.querySelectorAll(".bar-row").forEach(function(row){
+    row.addEventListener("pointerenter", function(){ show(row); });
+    row.addEventListener("pointerleave", hide);
+    row.addEventListener("focus", function(){ show(row); });
+    row.addEventListener("blur", hide);
+  });
+})();
+</script>
+</body>
+</html>
